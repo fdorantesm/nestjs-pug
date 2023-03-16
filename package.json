@@ -37,5 +37,9 @@
   },
   "lint-staged": {
     "**/*.{ts,json}": []
+  },
+  "dependencies": {
+    "@types/pug": "^2.0.6",
+    "pug": "^3.0.2"
   }
 }
