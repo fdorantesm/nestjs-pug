@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-dynamic-module-template",
+  "name": "nestjs-pug",
   "version": "1.0.0",
-  "description": "A nestjs dynamic module template",
+  "description": "A nestjs module for pug",
   "author": "Fernando Dorantes",
   "license": "MIT",
   "scripts": {
@@ -37,5 +37,9 @@
   },
   "lint-staged": {
     "**/*.{ts,json}": []
+  },
+  "dependencies": {
+    "@types/pug": "^2.0.6",
+    "pug": "^3.0.2"
   }
 }
