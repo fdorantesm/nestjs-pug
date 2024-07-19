@@ -1,8 +1,8 @@
 {
   "name": "nestjs-pug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nestjs module for pug",
-  "author": "Fernando Dorantes",
+  "author": "Fernando Dorantes <fernando@dorant.es>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"lib/**/*.ts\" --fix",
@@ -16,13 +16,15 @@
     "prepare": "husky install"
   },
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0 || ^9.0.0"
+    "@nestjs/common": "^8.0.0 || ^9.0.0 || ^10.0.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "17.4.4",
     "@commitlint/config-angular": "17.4.4",
     "@nestjs/common": "9.3.10",
     "@types/node": "18.15.3",
+    "@types/pug": "^2.0.6",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
     "eslint": "8.36.0",
@@ -37,9 +39,5 @@
   },
   "lint-staged": {
     "**/*.{ts,json}": []
-  },
-  "dependencies": {
-    "@types/pug": "^2.0.6",
-    "pug": "^3.0.2"
   }
 }
